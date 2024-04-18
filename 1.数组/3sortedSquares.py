@@ -14,8 +14,6 @@ def sortedSquares(nums:list) -> list:
     l=0
     r=len(nums)
     i=len(nums)
-
-
     res = [float('inf')] * len(nums)
     while l <= r :
         if nums[l]*nums[l] < nums[r]*nums[r]:
